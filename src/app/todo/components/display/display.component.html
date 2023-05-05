@@ -1,0 +1,14 @@
+<ul *ngFor="let item of datas">
+    <li>{{ item.task }} 
+        <app-btn [value]="btnDelete" [style]="btnStyle" (event)="delete(item.id)"></app-btn>
+        
+        <input type="checkbox" [checked]="item.done" (click)="changeChecked(item.id)">
+        
+        
+        <!-- <button (click)="removeTask(item.id)">Créer</button> -->
+        <!-- <app-supr-todo (recupId)="supprTache($event)"></app-supr-todo> -->
+    </li>
+</ul>
+
+
+  

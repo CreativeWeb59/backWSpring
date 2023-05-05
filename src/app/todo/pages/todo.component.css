@@ -1,0 +1,12 @@
+#contain-todo{
+    width: 50vw;
+    margin: 100px auto;
+    border: 1px solid;
+    box-shadow: 4px 4px 4px lightgray;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto;
+}

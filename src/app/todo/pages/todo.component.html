@@ -1,0 +1,6 @@
+<div id="contain-todo">
+    <h1>Tâches</h1>
+    <app-display (newDone)="ChangeDone($event)" [datas]="todos" (idDelete)="deleteTodo($event)">
+    </app-display>
+    <app-add-todo (newTask)="addTodo($event)"></app-add-todo>
+</div>
